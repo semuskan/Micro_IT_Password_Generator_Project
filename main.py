@@ -1,35 +1,4 @@
-# from tkinter import *
-# from tkinter.ttk import Combobox
-
-# root = Tk()
-# root.geometry("500x500")
-# root.title("Random Password Generator")
-# root.config(bg="purpule")
-
-# all_no = {"1", "1", "1","2","2","2", "2","3","3","3", "4","4","5","5","5", "5", "6","6","7", "7", "8","8","8","9","9", "9", "10","10","10","11","11" ,
-#           "11", "12","12","13", "13", "14","14","14","15", "15","16","16", "16", "17","17","18", "18","19", "19", "20","20","21", "21", "22","22",
-#           "23","23","23", "24","24", "25","25", "26","26", "27","27","28", "28", "29","29","30", "30"}
-
-# Title = Label(root, text="Random Password Generator", bg="purple",
-#               fg="black",font=("futura",15, "bold"))
-# Title.pack(anchor="center", pady="20px")
-
-# lenght = Label(root, text="Select the Lenght of Your Password:- "
-#                fg="darkred", bg="white", font=("ubuntu",12))
-# lenght.place(x="20px", y="70px")
-
-# solidboss = IntVar()
-# Selector = Combobox(root, textvariable=solidboss, state="readonly")
-
-# Selector.place(x="240px", y="72px")
-
-
-# root.mainloop()
- 
- 
- 
- 
-from tkinter import *
+ from tkinter import *
 from tkinter.ttk import Combobox
 import random
 import string
